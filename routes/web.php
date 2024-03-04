@@ -27,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 //default page
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('homepage');})->name('homepage');
 
 //admin dashboard 
