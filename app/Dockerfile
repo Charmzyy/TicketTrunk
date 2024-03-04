@@ -38,4 +38,5 @@ RUN php artisan storage:link
 EXPOSE 8001
 
 # Command to run the application
-CMD php artisan serve --host=0.0.0.0 --port=8001
+CMD php artisan serve --host=0.0.0.0 --port=80
+
